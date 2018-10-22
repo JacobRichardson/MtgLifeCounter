@@ -1,0 +1,88 @@
+body{
+	background: url(http://magic.wizards.com/sites/mtg/files/images/wallpaper/Wallpaper1920x1080_M15_PW3_Stone.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: Roboto;
+}
+.box{
+	background-color: #96999e;
+	float: left;
+	width: 45.5%;
+	height: 200%;
+	margin: 2% 2% 0 2%;	
+	background: url(https://cdn.pixabay.com/photo/2016/12/06/16/47/plain-animation-1886926__340.png);
+}
+.content{
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+#header{
+	color: white;
+	text-align: center;
+	text-shadow: 4px 4px #000000;
+
+}
+#infoBar{
+	margin-left: 12%;
+	margin-right: 20%;
+	width: 100%;
+	height: 5%;
+	padding-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	display: inline-block;
+}
+#reset{
+	display: inline-block;
+	margin-right: 5%;
+	margin-left: 5%;
+
+}
+#rollDice{
+	margin-right: 5%;
+	margin-left: 5%;
+
+}
+#hidePosion{
+	display: inline-block;
+	margin-left: 5%;
+
+}
+#YourRollLocation{
+	float: left;
+}
+#EnemyRollLocation{
+	float: left;
+}
+.posionPic{
+	max-height: 40px;
+}
+#YourPosionLocation{
+	height: 20%;
+	margin-left: 50%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+#EnemyPosionLocation{
+	height: 20%;
+	margin-left: 50%;
+	padding-right: 5%;
+	padding-left: 5%;
+	padding-bottom: 5%;
+}
+html{
+	height: 100%;
+}
+span{
+	text-align: center;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-top: 0;
+	padding-bottom: 0;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magic The Gathering Life Counter</title>
+
+	<link rel="stylesheet" type="text/css" href="./main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<script
+  	src="https://code.jquery.com/jquery-3.3.1.min.js"
+  	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  	crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+			<h1>Magic The Gathering Life Counter</h4>
+		</div>
+		<div class="box">
+			<div id="YourLife" class="content">
+				<p>Your Life</p>
+				<div class="innerBox">
+					<span id="YourLifeAdd">
+						<i class="fa fa-plus-circle" aria-hidden="true"></i>
+					</span>
+					<span id="YourLifeCount">20</span>
+					<span id="YourLifeMinus">
+						<i class="fa fa-minus-circle" aria-hidden="true"></i>
+					</span>
+				</div>
+				<div class="rollBox">
+					<ul>
+						<span id="YourRollLocation" class="rLocation">
+							<span><i class="fas fa-dice"></i></span>
+							<span id="YourRoll"></span>
+						</span>
+					</ul>
+				</div>
+				<div class="bottomBox">
+					<ul>
+						<div id="YourPosionLocation">
+							<span>
+								<img class="posionPic" src="https://vignette.wikia.nocookie.net/magic-thegathering/images/c/c9/Poison_Card_Symbol.png/revision/latest?cb=20130524111249">
+							</span>
+							<div id=PosionL>
+								<span id="YourPosionAdd">
+									<i class="fa fa-plus-circle" aria-hidden="true"></i>
+								</span>
+								<span id="YourPosionCount">0</span>
+								<span id="YourPosionMinus">
+									<i class="fa fa-minus-circle" aria-hidden="true"></i>
+								</span>
+							</div>
+						<div>
+					</ul>	
+				</div>	
+			</div>
+		</div>
+		<div class="box">
+			<div id="EnemyLife" class="content">
+				<p>Enemy Life</p>
+				<div class="innerBox">
+					<span id="EnemyLifeAdd">
+						<i class="fa fa-plus-circle" aria-hidden="true"></i>
+					</span>
+					<span id="EnemyLifeCount">20</span>
+					<span id="EnemyLifeMinus">
+						<i class="fa fa-minus-circle" aria-hidden="true"></i>
+					</span>
+				</div>
+				<div class="bottomBox">
+					<ul>
+						<span id="EnemyRollLocation" >
+							<span><i class="fas fa-dice"></i></span>
+							<span id="EnemyRoll"></span>
+						<span>	
+						
+					</ul>
+				</div>
+				<div class="bottomBox">
+					<ul>
+						<div id="EnemyPosionLocation" >
+							<span>
+								<img class="posionPic" src="https://vignette.wikia.nocookie.net/magic-thegathering/images/c/c9/Poison_Card_Symbol.png/revision/latest?cb=20130524111249">
+							</span>
+								<div id=PosionL1>
+								<span id="EnemyPosionAdd">
+									<i class="fa fa-plus-circle" aria-hidden="true"></i>
+								</span>
+								<span id="EnemyPosionCount">0</span>
+								<span id="EnemyPosionMinus">
+									<i class="fa fa-minus-circle" aria-hidden="true"></i>
+								</span>
+							</div>
+						<div>
+					</ul>	
+				</div>		
+
+			</div>
+		</div>
+	</div>
+	<div id="infoBar">
+		<button type="button" id="rollDice" class="btn btn-warning btn-lg" >Roll Dice</button>
+		<button type="button" id="hideDice" class="btn btn-warning btn-lg" >Hide Dice</button>
+		<button type="button" id="reset" class="btn btn-warning btn-lg">Reset</button>
+		<button type="button" id="showPosion" class="btn btn-warning btn-lg" >Show Posion</button>
+		<button type="button" id="hidePosion" class="btn btn-warning btn-lg" >Hide Posion</button>
+
+	</div>
+
+	<script type="text/javascript" src="./mtgLifeCounter.js"></script>
+
+</body>
+</html>
